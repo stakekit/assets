@@ -1,0 +1,1 @@
+Stakekit assets
