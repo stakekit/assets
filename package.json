@@ -1,0 +1,34 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "description": "Stakekit assets",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "delete-png-assets": "node manage-image-assets.js delete",
+    "convert-svg-to-png": "node manage-image-assets.js convert"
+  },
+  "repository": "git+https://github.com/stakekit/assets.git",
+  "author": "ilia gazdaliev <invimind@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stakekit/assets/issues"
+  },
+  "homepage": "https://github.com/stakekit/assets#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.svg": [
+      "node manageImages.js convert",
+      "git add **/*_*x*.png"
+    ]
+  },
+  "dependencies": {
+    "glob": "^10.3.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
+    "sharp": "^0.32.5"
+  }
+}
