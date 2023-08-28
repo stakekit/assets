@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "delete-png-assets": "node manage-image-assets.js delete",
-    "convert-svg-to-png": "node manage-image-assets.js convert"
+    "convert-svg-to-png": "node manage-image-assets.js convert",
+    "prepare": "husky install"
   },
   "repository": "git+https://github.com/stakekit/assets.git",
   "author": "ilia gazdaliev <invimind@gmail.com>",
