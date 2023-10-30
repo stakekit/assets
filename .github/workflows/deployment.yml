@@ -12,20 +12,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+      
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
           audience: sts.amazonaws.com
           aws-region: 'us-east-1'
           role-to-assume: ${{ secrets.ROLE_ARN }} 
-      
+          
       - name: Deploy to S3
         uses: reggionick/s3-deploy@v4
         with:
           folder: .
-          files-to-include: 'networks/*, stakekit/*, logo/*, providers/*, tokens/*, validators/*, yield-opportunities/*'
+          files-to-include: '{.*/*.+(png|svg),*/*.+(png|svg),**.+(png|svg)}'
           bucket: ${{ secrets.S3_BUCKET }}
-          bucket-region: us-east-1
+          dist-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+          bucket-region: ${{ secrets.S3_BUCKET_REGION }}
+          private: true
+          delete-removed: true
 
       - name: Report Status
         if: always()
