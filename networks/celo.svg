@@ -1,12 +1,13 @@
-<svg width="950" height="950" viewBox="0 0 950 950" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_2017_2343)">
-<path d="M375 850C526.9 850 650 726.9 650 575C650 423.1 526.9 300 375 300C223.1 300 100 423.1 100 575C100 726.9 223.1 850 375 850ZM375 950C167.9 950 0 782.1 0 575C0 367.9 167.9 200 375 200C582.1 200 750 367.9 750 575C750 782.1 582.1 950 375 950Z" fill="#FBCC5C"/>
-<path d="M575 650C726.9 650 850 526.9 850 375C850 223.1 726.9 100 575 100C423.1 100 300 223.1 300 375C300 526.9 423.1 650 575 650ZM575 750C367.9 750 200 582.1 200 375C200 167.9 367.9 0 575 0C782.1 0 950 167.9 950 375C950 582.1 782.1 750 575 750Z" fill="#35D07F"/>
-<path d="M587.4 750C613.4 718.5 632 681.6 641.9 641.9C681.5 632 718.4 613.4 750 587.4C748.6 633.3 738.7 678.5 720.8 720.9C678.5 738.7 633.3 748.6 587.4 750ZM308.1 308.1C268.5 318 231.6 336.6 200 362.6C201.4 316.7 211.3 271.5 229.2 229.2C271.5 211.4 316.8 201.5 362.6 200C336.6 231.5 318 268.4 308.1 308.1Z" fill="#5EA33B"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns:xodm="http://www.corel.com/coreldraw/odm/2003" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 2500 2500" style="enable-background:new 0 0 2500 2500;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:#FCFF52;}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;}
+</style>
+<g id="Layer_x0020_1">
+	<g id="_1942792544736">
+		<circle class="st0" cx="1250" cy="1250" r="1250"></circle>
+		<path class="st1" d="M1949.3,546.2H550.7v1407.7h1398.7v-491.4h-232.1c-80,179.3-260.1,304.1-466.2,304.1    c-284.1,0-514.2-233.6-514.2-517.5c0-284,230.1-515.6,514.2-515.6c210.1,0,390.2,128.9,470.2,312.1h228.1V546.2z"></path>
+	</g>
 </g>
-<defs>
-<clipPath id="clip0_2017_2343">
-<rect width="950" height="950" fill="white"/>
-</clipPath>
-</defs>
 </svg>
