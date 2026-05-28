@@ -1,1 +1,12 @@
-<!doctype html><html lang="en" style="height:100%"><head><meta charset="utf-8"/><script src="/charting_library_v28.5/charting_library/charting_library.js?bust=v8"></script><title>Hyperliquid</title><meta name="description" content="Trade 100+ perps and spot assets on Hyperliquid, a decentralized Layer 1 blockchain with fully onchain order books."/><base href="/"/><link rel="manifest" href="/manifest.json"/><meta name="color-scheme" content="dark"/><meta name="viewport" content="viewport-fit=cover,width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,interactive-widget=resizes-content"/><meta name="format-detection" content="telephone=no"/><meta name="msapplication-tap-highlight" content="no"/><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png"/><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png"/><meta name="apple-mobile-web-app-capable" content="yes"/><meta name="apple-mobile-web-app-status-bar-style" content="black"/><meta name="version" content="1"/><script defer="defer" src="/static/js/main.30d8be3d.js"></script><link href="/static/css/main.0e42622f.css" rel="stylesheet"></head><body style="background-color:#303030"><div id="root" style="height:100%"></div><script src="https://hyperliquid.statuspage.io/embed/script.js"></script></body></html>
+<svg width="827" height="827" viewBox="0 0 827 827" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_5786_168)">
+<path d="M0 0H827V827H0V0Z" fill="white"/>
+<path d="M321.611 0H45.9444L321.611 252.694V0ZM505.389 0V275.667L804.028 0H505.389ZM827 206.75L689.167 321.611H827V206.75ZM827 505.389H643.222L827 666.194V505.389ZM781.056 827L505.389 574.306V827H781.056ZM321.611 827V551.333L22.9722 827H321.611ZM0 620.25L137.833 505.389H0V620.25ZM0 321.611H183.778L0 160.806V321.611Z" fill="#0D47A1"/>
+<path d="M321.611 321.611L-298.639 -229.722V-124.05L229.722 321.611H321.611ZM367.556 367.556V3.8147e-06H459.444V367.556H827V459.444H459.444V827H367.556V459.444H1.90735e-05V367.556H367.556ZM-413.5 1056.72L229.722 505.389H321.611L-298.639 1056.72H-413.5ZM505.389 321.611L1056.72 -183.778H1157.8L597.278 321.611H505.389ZM597.278 505.389H505.389L1033.75 964.833V872.944L597.278 505.389Z" fill="#EF5350"/>
+</g>
+<defs>
+<clipPath id="clip0_5786_168">
+<rect width="827" height="827" fill="white"/>
+</clipPath>
+</defs>
+</svg>
